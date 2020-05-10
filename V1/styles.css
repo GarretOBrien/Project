@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+/*
+Course: CIS 155
+Assignment: Jacob collir website
+Purpose: stylesheet for website
+Author: Garret O'Brien 
+Date: 5-8-20
+Filename: styles.css    
+*/
+
+/* Structural Styles */
+html{background-color: hsl(35, 76%, 87%);
+    font-size: medium;
+font-weight: 200;}
+
+header{font-family: century-gothic, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    font-size: 100px;
+background-color: #4b3542;
+}
+
+h2{font-family: century-gothic, sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+p2{
+    font-family: century-gothic, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 50px;
+    page-break-inside: auto;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #68603cff;
+    border: 5px solid #4c4730;
+    position: webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+    font-size: 30px;
+     }
+   
+  
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: century-gothic, sans-serif;
+    font-weight: 500;
+  }
+  
+  li a:hover {
+    background-color: #8c845f;
+  }
+
+  .active {
+    background-color: #4c4730;
+  }
+  
+
+
+  img[src="grammy.jpeg"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border-radius: 10% ;
+  }
+
+  footer{color: #c9aa82;}
+    p[style]{
+        text-align: center;
+        text-decoration: underline;
+    }
