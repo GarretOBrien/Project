@@ -10,6 +10,8 @@ Filename: styles.css
 */
 
 /* Structural Styles */
+/*M2LO12 Demonstrate how CSS can change presentation of page elements 
+below I have changed the bckground color of my website*/
 html{background-color: hsl(35, 76%, 87%);
     font-size: medium;
 font-weight: 200;}
@@ -31,18 +33,31 @@ h2{font-family: century-gothic, sans-serif;
 p2{
     font-family: century-gothic, sans-serif;
     font-weight: 500;
+    font-size: large;
     text-align: center;
     margin-left: 50px;
     page-break-inside: auto;
 }
-nav ul {
+
+p2::first-letter{
+    font-family: century-gothic, sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    text-align: center;
+    margin-left: 50px;}
+/* M2LO15 Apply colors using CSS (CSS, see 2-5 Working with Color in CSS)
+ive applied color to the background and the border of the ul element */
+
+/* M2LO13 Demonstrate how CSS can change presentation of textual elements
+below, i have altered the text size and other atributes to make the nav bar more engaging*/
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #68603cff;
     border: 5px solid #4c4730;
-    position: webkit-sticky;
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
   }
@@ -53,7 +68,8 @@ nav ul {
      }
    
   
-
+/*M2LO5 Demonstrate contextual selectors 
+ive used selectors to effect color and padding*/
   li a {
     display: block;
     color: white;
@@ -64,10 +80,13 @@ nav ul {
     font-weight: 500;
   }
   
+  /*M2LO11 Demonstrate a pseudo-classes 
+  when hovering over a navbar selection it changes color*/
   li a:hover {
     background-color: #8c845f;
   }
-
+  /*M2LO6  Demonstrate a CSS id and a CSS class selector
+  below I've used .active as my class selector*/
   .active {
     background-color: #4c4730;
   }
@@ -83,7 +102,10 @@ nav ul {
   }
 
   footer{color: #c9aa82;}
-    p[style]{
+   
+  /*M2LO7 Demonstrate a CSS attribute selector other than class or id
+  I've selected the style atribute on my footer tag*/
+  p[style]{
         text-align: center;
         text-decoration: underline;
     }
