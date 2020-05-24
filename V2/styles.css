@@ -42,14 +42,14 @@ h2{font-family: brandon-grotesque, sans-serif;
     margin: 0em;
     border: 0em;
 }
+
 p2{
     font-family: brandon-grotesque, sans-serif;
     font-weight: 700;
     font-size: large;
     text-align: center;
     margin-left: 50px;
-    page-break-inside: auto;
-}
+    page-break-inside: auto;}
 
 p2::first-letter{
     font-family: century-gothic, sans-serif;
@@ -62,6 +62,9 @@ ive applied color to the background and the border of the ul element */
 
 /* M2LO13 Demonstrate how CSS can change presentation of textual elements
 below, i have altered the text size and other atributes to make the nav bar more engaging*/
+
+/*M3LO11 Demonstrate -prefix- style browser extensions use in CSS
+below I have demonstrated a safari webkit extention*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -69,10 +72,8 @@ ul {
     overflow: hidden;
     background-color: #68603cff;
     border: 5px solid #4c4730;
-    position: -webkit-sticky;
-    position: sticky;
     top: 0;
-  }
+   }
   
   li {
     float: left;
@@ -103,27 +104,41 @@ ive used selectors to effect color and padding*/
     background-color: #4c4730;
   }
   
+  /*M4LO5 Demonstrate the use of text or box shadowing
+    below I have demonstrated the use of shadowing*/
   img[src="grammy.jpeg"] {
     display: block;
     margin-left: auto;
     margin-right: auto;
     border: 15px solid #4c4730;
     width: 25%;
-    
+    box-shadow: hsl(35, 35%, 50%) 0px 20px 20px;
     border-radius: 10% ;
   }
-
-  footer{color: #c9aa82;}
+/*M3LO8A Demonstrate absolute positioning
+below I have demonstrated an element with an absolute position with a sticky footer*/
+  footer{color: #c9aa82;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 6%;
+    width: 100%;
+    background-color:#2b2120ff ;
+    text-align: center;}
    
 
 
+    /*M3LO8B Demonstrate relative positioning
+    below I have demonstrated an example of reletiv positioning with the layout of the album
+    images in my albums page.*/
 
   div.gallery {
     border: 10px solid #b73a28ff;
     margin: 10px;
     border-radius: 10%;
   }
-  
+  /*M4LO3 Demonstrate the use of rounded corners for borders
+  below I have demonstrated the use of rounded corners on a border*/
   div.gallery:hover {
       border: 10px solid rgba(183, 59, 40, 0.623);
       border-radius: 10%;
@@ -135,6 +150,14 @@ ive used selectors to effect color and padding*/
     border-radius: 7%;
   }
   
+  /*M4LO6 Demonstrate the use of opacity/transparency for images
+  below I have images reduce in opacity when they are hovered over*/
+  div.gallery img:hover {
+    width: 100%;
+    height: 100%;
+    border-radius: 7%;
+    opacity: 0.8;
+  }
   * {
     box-sizing:border-box;
   }
@@ -180,3 +203,34 @@ ive used selectors to effect color and padding*/
         text-align: center;
         text-decoration: underline;
     }
+section{float:center;}
+
+/*M3LO2 Demonstrate floating elements
+below I have specified an image to float on the left of my accomplishments webpage*/
+body>section>img{
+  
+  margin-top: 10%;
+  margin-left: 3%;
+  margin-bottom: 5%;
+  padding: 1%;
+  float: left;
+  background-color: #2b2120ff;
+  border-radius: 10px;
+  box-shadow: hsl(35, 35%, 50%) 0px 20px 20px;}  
+
+ /*M4LO1 Demonstrate the use of figure boxes
+    below Ihave demonstrated the use of figure boxes*/
+
+section1{
+  color: #ffffff;
+  width: 45%;
+  margin-top: 3%;
+  padding-right: 500px;
+  padding: 30px;
+  float: right;
+  background-color: #2b2120ff;
+  border-radius: 5%;
+  box-shadow: hsl(35, 35%, 50%) 0px 20px 20px;}
+
+
+  div.row{margin: 3%;}
