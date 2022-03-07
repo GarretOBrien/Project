@@ -4,8 +4,11 @@
     background-color: lightblue;
   }
 
+  p{
+    font-size: 200%;
+  }
+
   div.sticky {
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
   }
