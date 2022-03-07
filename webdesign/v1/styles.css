@@ -1,4 +1,9 @@
-/* By Dominik Biedebach @domobch */
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+
+  /* By Dominik Biedebach @domobch */
 html{
   background-color: lightblue;
 }
@@ -112,3 +117,24 @@ nav.fill ul li a:after {
 nav.stroke ul li a:hover:after {
   width: 100%;
 }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
