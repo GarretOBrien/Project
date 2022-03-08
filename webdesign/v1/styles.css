@@ -122,19 +122,24 @@ nav ul li a {
 }
 
 
-/*menue animation*/
+
+
+/*menu animation*/
 nav ul li a,
 nav ul li a:after,
 nav ul li a:before {
   transition: all .4s;
 }
 
+
+
 /*text hovered*/
-nav ul li a:hover {
+#nav-content ul li a:hover {
   color: rgb(118, 208, 243);
-  font-size:x-large;
+  font-size: large;
   padding-top: 3px;
 }
+
 
 /* By Dominik Biedebach @domobch */
 
@@ -169,7 +174,34 @@ nav.stroke ul li a:hover:after {
 
 
 
+nav a:hover:before , 
+nav a.active:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
 
+.active {
+  color: rgb(118, 208, 243);
+  font-size: large;
+  padding-top: 5px;
+}
+
+
+
+
+
+nav ul li a:before {
+  position:absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #333;
+  height: 3px;}
 
 
 
