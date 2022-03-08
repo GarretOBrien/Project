@@ -6,7 +6,7 @@
 html{
   background-image: url("bluewiibackground.JPG");
   background-size:cover;
- 
+
 }
 
 
@@ -71,6 +71,8 @@ h1 {
 header {
 font-family: wii;
 
+box-shadow: inset 0 -150px 100px -20px rgb(255, 255, 255), inset  0 -250px 150px -30px rgba(255, 255, 255, 0.466), inset 0 -500px 0px -30px rgba(255, 255, 255, 0.288);
+
   text-align: center;
   font-size: 150px;
   margin: 0;
@@ -79,7 +81,7 @@ font-family: wii;
   padding-bottom: 50px;
   padding-top: 50px;
 
-  padding-right: 10%;
+  
   display: flex;
 
     width: 100%;
@@ -89,7 +91,10 @@ font-family: wii;
     justify-content: center;
     align-items: center;
 
+
 }
+
+
 
 
 /* NAVIGATION */
@@ -102,15 +107,24 @@ nav {
   background-color: white;
   padding: 10px 0;
 
-  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.493);
-  
+  box-shadow: 0 80px 80px -20px rgba(0, 0, 0, 0.493);
+
+
 }
 
 /*small section around menu that allows it to stick to top*/
 #nav-content {
   position: sticky;
   top: 0;
+
 }
+
+div .shadow {
+
+
+  box-shadow: 0 500px 10px -200px rgba(0, 0, 0, 0.493);
+
+} 
 
 
 /* By Dominik Biedebach @domobch */
