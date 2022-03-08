@@ -69,7 +69,7 @@ touch-action: manipulation;
 /*menu button*/
 .icon-bar {
 display: block;
-width: 100%;
+width: 60px;
 height: 5px;
 background: #aaa;
 transition: .3s;
@@ -77,7 +77,7 @@ transition: .3s;
 
 /*space between menu button lines*/
 .icon-bar + .icon-bar {
-margin-top: 5px;
+margin-top: 15px;
 }
 
 #nav-container:focus-within .button {
@@ -85,8 +85,8 @@ pointer-events: none;
 }
 /*top of menu button*/
 #nav-container:focus-within .icon-bar:nth-of-type(1) {
-transform: translate3d(0,10px,0) rotate(45deg);
-width: 90px
+transform: translate3d(0,20px,0) rotate(45deg);
+width: 60px
 }
 /*middle of menu button*/
 #nav-container:focus-within .icon-bar:nth-of-type(2) {
@@ -94,13 +94,13 @@ opacity: 0;
 }
 /*bottom of menu button*/
 #nav-container:focus-within .icon-bar:nth-of-type(3) {
-transform: translate3d(0,-10px,0) rotate(-46deg);
-width: 90px;
+transform: translate3d(0,-15px,0) rotate(-45deg);
+width: 60px;
 }
 
 /*the menu and white block*/
 #nav-content {
-margin-top: 5%;
+margin-top: 10%;
 padding: 20px;
 width: 100%;
 max-width: 600px;
@@ -121,6 +121,7 @@ contain: paint;
 height: 100%;
 display: flex;
 flex-direction: column;
+margin-top: 5%;
 }
 
 #nav-content li a {
