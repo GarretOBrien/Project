@@ -53,6 +53,51 @@
     </section>
   </main>
 
+
+  <form method="GET" action="index.html" autocomplete="false" class="firstform" id="firstform">
+	
+    <fieldset class="identifying">
+      <legend>Lorem Ipsum</legend>
+      <label for="myname">Your name: </label>
+      <input name="myname" id="myname" type="text" required placeholder="Your Name Here" autofocus /><br>
+      
+      
+      <label for="myemail">Your email address:</label>
+      <input name="myemail" id="myemail" type="email" required placeholder="Email Here" /><br>
+      
+      <label for="mytext">Comments: </label>
+      <textarea name="mytext" id="mytext" placeholder="We'd love to hear what you think!"></textarea>	  
+    </fieldset>
+    <fieldset class="choices">
+    <legend>Dor Sit Amet</legend>
+      <ul style="list-style:none;">
+        <li><label for="check1"><input name="check1" id="check1" type="checkbox">  Choice 1</label></li>
+        <li><label for="check2"><input name="check2" id="check2" type="checkbox">  Choice 2</label></li>
+        <li><label for="check3"><input checked name="check3" id="check3" type="checkbox">  Choice 3</label></li>
+      </ul>
+
+
+      <ul id="choices">
+        <li><label><input name="myradio" id="rad1" value="1" type="radio"> Un-Modded Wii</label></li>
+        <li><label><input name="myradio" id="rad2" value="2" type="radio"> Modded Wii (no storage)</label></li>
+        <li><label><input name="myradio" id="rad3" value="3" type="radio"> Modded Wii 120gb</label></li>
+        <li><label><input name="myradio" id="rad4" value="4" type="radio"> Modded Wii 256gb</label></li>
+      </ul>
+    </fieldset>
+   
+    <fieldset class="submission">
+   
+      <legend>Send It!</legend>
+   
+      <input type="submit" value="Send It"/>
+      <input type="reset" />
+
+    </fieldset>
+    </form>
+
+
+
+
   </body>
 
 

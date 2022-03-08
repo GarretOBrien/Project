@@ -253,3 +253,30 @@ nav ul li a:before {
 
 
 
+  .identifying label {
+    font-style: italic;
+    display: inline-block;
+    width: 12rem;
+  }
+  
+  label[for="mytext"] {
+    font-weight: bold;
+    color: #444;
+  }
+  
+  textarea#mytext {
+    display: block;
+    width: 90%;
+  }
+  
+  fieldset.identifying {
+    border-radius: .5rem;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #88f;
+    border-style: none;
+    padding: .2rem .5rem;
+    display: inline-block;
+    border-radius: .15rem;
+  }
