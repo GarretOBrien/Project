@@ -252,4 +252,17 @@ nav ul li a:before {
 
 
 
+  #background {
+    width: 130%; 
+    height: 130%; 
+    position: fixed; 
+    top: -100px;
+    left:-160px;
+    z-index: -1;
+    opacity: 0.2;
+}
 
+.stretch {
+    width:100%;
+    height:100%;
+}
