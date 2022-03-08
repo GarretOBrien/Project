@@ -1,11 +1,10 @@
-  body {
-    background-color: lightblue;
-  }
-
-  /* By Dominik Biedebach @domobch */
 html{
   background-color: lightblue;
+    background-image: url("images/Screen Shot 2022-02-16 at 8.11.32 PM.png");
+    background-repeat: repeat;
+
 }
+
 
 
 body {
@@ -15,6 +14,28 @@ body {
 
   box-sizing: border-box;
 }
+
+main {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  margin: auto 0;
+}
+
+section.s1 {
+  flex: 0 1 50%;
+  font-size: 20;
+}
+section.s2 {
+  flex: 0 1 35%;
+  font-size: 20;
+}
+
+
+
+
+
+
 
 h1 {
   text-align: center;
