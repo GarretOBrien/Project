@@ -94,7 +94,7 @@ opacity: 0;
 }
 /*bottom of menu button*/
 #nav-container:focus-within .icon-bar:nth-of-type(3) {
-transform: translate3d(0,-15px,0) rotate(-45deg);
+transform: translate3d(0,-18px,0) rotate(-45deg);
 width: 60px;
 }
 
