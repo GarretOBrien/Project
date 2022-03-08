@@ -142,6 +142,8 @@ margin: 2px;
 
 
 /*controlls text at bottom of menu*/
+
+/*
 #nav-content li:not(.small) + .small {
 margin-top: auto;
 }
@@ -159,7 +161,9 @@ font-size: 100%;
 }
 .small a + a {
 margin-left: 15px;
-}
+} */
+
+
 
 #nav-container:focus-within #nav-content {
 transform: none;
