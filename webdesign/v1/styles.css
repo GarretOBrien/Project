@@ -22,13 +22,19 @@ main {
 }
 
 section.s1 {
+  color: black;
+  text-shadow: 100px 100px 3px white;
+
   flex: 0 1 50%;
   font-size: 20;
+  
+  background-color: rgba(51, 51, 51, 0.774);  
+  
   border: 10px solid rgb(0, 0, 0) ;
-  background-image: url("darkwiibackground.JPG");  
   background-size:cover;
   border-radius: 10px;
   padding: 5px;
+  
   
 }
 section.s2 {
@@ -81,7 +87,8 @@ nav {
   margin: 0 auto;
   background-color: white;
   padding: 10px 0;
-  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+
+  box-shadow: 0 5px 30px rgba(0,0,0,.2);
   
 }
 
@@ -99,25 +106,30 @@ nav ul {
 nav ul li {
   display:inline-flex ;
 }
+
+/*menu text*/
 nav ul li a {
   display: flex;
   padding: 10px;
   text-decoration: none;
-  color: #aaa;
+  color: rgb(170, 170, 170);
   font-weight: 500;
   text-transform: uppercase;
   margin: 0 10px;
   font-size: relative;
 }
 
-/*underline animation*/
+/*menue animation*/
 nav ul li a,
 nav ul li a:after,
 nav ul li a:before {
   transition: all .5s;
 }
+
+/*text hovered*/
 nav ul li a:hover {
-  color: #555;
+  color: rgb(118, 208, 243);
+  font-size: 20;
 }
 
 /* By Dominik Biedebach @domobch */
