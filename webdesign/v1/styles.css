@@ -1,8 +1,7 @@
 html{
-  background-color: lightblue;
-    background-image: url("images/Screen Shot 2022-02-16 at 8.11.32 PM.png");
-    background-repeat: repeat;
-
+  background-image: url("wiibackground.JPG");
+  background-size:cover;
+ 
 }
 
 
@@ -25,6 +24,12 @@ main {
 section.s1 {
   flex: 0 1 50%;
   font-size: 20;
+  border: 10px solid rgb(0, 0, 0) ;
+  background-image: url("darkwiibackground.JPG");  
+  background-size:cover;
+  border-radius: 10px;
+  padding: 5px;
+  
 }
 section.s2 {
   flex: 0 1 35%;
@@ -64,6 +69,7 @@ header {
     color: rgb(0, 0, 0);
     justify-content: center;
     align-items: center;
+
 }
 
 
