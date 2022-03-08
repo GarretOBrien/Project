@@ -99,6 +99,7 @@ nav {
   top: 0;
 }
 
+
 /* By Dominik Biedebach @domobch */
 nav ul {
   list-style: none;
@@ -116,21 +117,23 @@ nav ul li a {
   color: rgb(170, 170, 170);
   font-weight: 500;
   text-transform: uppercase;
-  margin: 0 10px;
+  margin: 0 60px;
   font-size: relative;
 }
+
 
 /*menue animation*/
 nav ul li a,
 nav ul li a:after,
 nav ul li a:before {
-  transition: all .5s;
+  transition: all .4s;
 }
 
 /*text hovered*/
 nav ul li a:hover {
   color: rgb(118, 208, 243);
-  font-size: 20;
+  font-size:x-large;
+  padding-top: 3px;
 }
 
 /* By Dominik Biedebach @domobch */
@@ -142,6 +145,7 @@ nav.stroke ul li a,
 nav.fill ul li a {
   position: relative;
 }
+
 nav.stroke ul li a:after,
 nav.fill ul li a:after {
   position:absolute;
