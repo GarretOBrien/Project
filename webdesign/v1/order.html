@@ -45,57 +45,40 @@
     
 
     <section class="s1">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis iaculis neque ac magna porta, sed ultrices metus venenatis. Aenean eleifend, justo in euismod vulputate, dui nulla vulputate sem, ut maximus augue tellus ut sem. Morbi convallis gravida tortor vitae molestie. Phasellus blandit leo erat, sed pulvinar nisl facilisis at. Cras nec interdum elit, et malesuada purus. Cras volutpat justo nibh, viverra venenatis justo molestie in. Integer et porta dui.</p>
-
-      <p>Aliquam dignissim magna eu dui iaculis, nec sodales lorem fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin auctor vulputate neque, et porta ligula tempus eu. Morbi vel magna vitae massa posuere vulputate non sed ex. Donec nibh metus, hendrerit at molestie quis, maximus nec sapien. Proin eleifend quam sed volutpat faucibus. Suspendisse bibendum ex risus, ac ultrices risus molestie in. Ut tellus mi, imperdiet nec nisl quis, efficitur laoreet nulla. Etiam ante mauris, feugiat eget cursus eget, porttitor in elit. Aliquam fringilla placerat erat vel lobortis. Nulla in maximus ligula. Vestibulum vel leo at nibh aliquam efficitur. Vivamus augue quam, imperdiet in urna in, faucibus fermentum risus.</p>
-
+      <div class="textbox">
+        <label for="myname">Your name: </label>
+        <input name="myname" id="myname" type="text" required placeholder="Your Name Here" autofocus /><br>
+        
+        
+        <label for="myemail">Your email address:</label>
+        <input name="myemail" id="myemail" type="email" required placeholder="Email Here" /><br>
+        
+        
+  </div>
     </section>
     <section class="s2">
     
-      <p>Aliquam erat volutpat. Quisque venenatis pretium tortor, facilisis suscipit nisi ultricies at. Vivamus gravida facilisis lorem sed dictum. Vestibulum vitae laoreet libero, id placerat mi. Pellentesque aliquam, mauris eu fringilla rhoncus, odio nunc interdum nulla, euismod fringilla nibh odio eu nulla. Ut tincidunt neque venenatis lacus interdum imperdiet. Aliquam fringilla accumsan interdum. Phasellus commodo pulvinar enim consectetur sollicitudin. Sed dapibus ligula posuere nibh laoreet blandit.</p>
-
-      <p>Vivamus augue augue, consequat eget ex id, varius pellentesque orci. Praesent ac tortor mi. Suspendisse blandit massa at turpis porta, eu tincidunt ligula posuere. Sed vitae mauris imperdiet, pretium odio at, ultricies mi. Nam non malesuada lorem, at vestibulum lorem. Nullam vehicula urna nisi, egestas auctor purus imperdiet at. Praesent sit amet velit id erat porta porta. Nam porta nibh quis tincidunt porttitor. Nam suscipit iaculis enim eget faucibus. Pellentesque placerat turpis nec ipsum dignissim, at bibendum augue sollicitudin. Etiam commodo ex vel accumsan cursus. Quisque a libero sit amet sem convallis rhoncus. Aliquam at mauris et elit suscipit rutrum. Morbi ac auctor purus, nec lacinia ipsum.</p>
-   
-    </section>
-  </main>
-
-
-  <form method="GET" action="thankyou.html" autocomplete="false" class="firstform" id="firstform">
-	
-    <fieldset class="identifying">
-      <legend>Lorem Ipsum</legend>
-      <label for="myname">Your name: </label>
-      <input name="myname" id="myname" type="text" required placeholder="Your Name Here" autofocus /><br>
-      
-      
-      <label for="myemail">Your email address:</label>
-      <input name="myemail" id="myemail" type="email" required placeholder="Email Here" /><br>
-      
-      <label for="mytext">Comments: </label>
-      <textarea name="mytext" id="mytext" placeholder="We'd love to hear what you think!"></textarea>	  
-    </fieldset>
-    <fieldset class="choices">
-    <legend>Dor Sit Amet</legend>
-      <ul style="list-style:none;">
-        <li><label for="check1"><input name="check1" id="check1" type="checkbox">  Choice 1</label></li>
-        <li><label for="check2"><input name="check2" id="check2" type="checkbox">  Choice 2</label></li>
-        <li><label for="check3"><input checked name="check3" id="check3" type="checkbox">  Choice 3</label></li>
-      </ul>
-
-
       <ul id="choices">
         <li><label><input name="myradio" id="rad1" value="1" type="radio"> Un-Modded Wii</label></li>
         <li><label><input name="myradio" id="rad2" value="2" type="radio"> Modded Wii (no storage)</label></li>
         <li><label><input name="myradio" id="rad3" value="3" type="radio"> Modded Wii 120gb</label></li>
         <li><label><input name="myradio" id="rad4" value="4" type="radio"> Modded Wii 256gb</label></li>
       </ul>
-    </fieldset>
+    </section>
+  </main>
+
+
+  <form method="GET" action="thankyou.html" autocomplete="false" class="firstform" id="firstform">
+	
+
+
    
 
-      <legend>Send It!</legend>
-      <input type="submit" value="Send It"/>
+      <legend>confirm order?</legend>
+      <div class="buttonHolder">
+      <input type="submit" value="Buy now!"/>
       <input type="reset" value="Cancel Order"/>
-
+      </div>
 
     </form>
 

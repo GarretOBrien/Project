@@ -246,14 +246,20 @@ nav ul li a:before {
 
 
 
+legend{
+  text-align: center;
+  font-family: wii;
+  font-size: xx-large;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.buttonHolder{ text-align: center; }
 
 
 
 
-
-
-
-  .identifying label {
+  .textbox label {
     font-style: italic;
     display: inline-block;
     width: 12rem;
@@ -269,25 +275,36 @@ nav ul li a:before {
     width: 90%;
   }
   
-  fieldset.identifying {
-    border-radius: .5rem;
+  input[type="submit"]{
+    height: 100px;
+    width: 300px;
+    font-size: x-large;
+  }
+ 
+  input[type="reset"]{
+    height: 100px;
+    width: 300px;
+    font-size: x-large;
   }
   
   input[type="submit"]:hover {
     background-color: #88f;
     border-style: none;
-    padding: .2rem .5rem;
     display: inline-block;
     border-radius: .15rem;
+    align-items: center;
   }
 
 ul#choices{
   list-style: none;
+  font-size: larger;
+  line-height: 20%;
 }
 
+
 input[type=radio] {
-width: 20px;
-height: 20px;
+width: 50px;
+height: 50px;
 }
   input:focus {
     background-color: rgb(118, 208, 243);

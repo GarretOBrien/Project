@@ -259,7 +259,7 @@ nav ul li a:before {
     top: -100px;
     left:-160px;
     z-index: -1;
-    opacity: 0.2;
+    opacity: 0.1 ;
 }
 
 .stretch {
