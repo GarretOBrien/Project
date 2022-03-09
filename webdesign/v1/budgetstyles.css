@@ -299,6 +299,7 @@ color: white;
 text-shadow: #333;
 font-family: wii;
 height: 50px;
+text-shadow: 1px 1px 3px black;
 }
 
 table.data3x4 td, table.data3x4 th{
@@ -315,3 +316,16 @@ background-color: rgba(118, 208, 243, 0.493);
 table.data3x4 tbody tr:nth-child(even) td{
   background-color: rgba(0, 0, 0, 0.486);
 }
+
+
+
+
+footer{color: black;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 4%;
+  width: 100%;
+  border: 10%;
+  background-color:rgb(255, 255, 255) ;
+  text-align: center;}

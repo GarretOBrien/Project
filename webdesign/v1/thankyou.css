@@ -308,3 +308,12 @@ nav ul li a:before {
 
 
 
+footer{color: black;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 4%;
+  width: 100%;
+  border: 10%;
+  background-color:rgb(255, 255, 255) ;
+  text-align: center;}
