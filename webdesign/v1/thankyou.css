@@ -274,8 +274,25 @@ nav ul li a:before {
   }
 
   input[type="submit"]:hover {
-    height: 102px;
-    width: 306px;
+    box-shadow: inset 0 0 0 1000px rgba(35, 184, 243, 0.432);
+
+    height: 100px;
+    width: 300px;
+
+    background-image: url("glossybutton.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 120% 130%;
+
+    border-radius: 20px;
+    border-color: aqua;
+  }
+
+  input[type="submit"]:active {
+    box-shadow: inset 0 0 0 1000px rgba(48, 115, 141, 0.432);
+
+    height: 100px;
+    width: 300px;
 
     background-image: url("glossybutton.png");
     background-repeat: no-repeat;
@@ -288,8 +305,6 @@ nav ul li a:before {
 
 
 
-
-label{text-align: center;}
 
 
 
